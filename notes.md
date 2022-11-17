@@ -2,13 +2,17 @@
 gdal2tiles.py --xyz -x -s EPSG:3035 --zoom=0-7 --processes=2 /home/juju/Bureau/gisco/elevation/EU_DEM_mosaic_1000K/1000_temp.vrt /home/juju/Bureau/aaa/
 
 
-gdal2tiles.py -p EUR --xyz -x -s EPSG:3035 --processes=2 /home/juju/Bureau/gisco/elevation/EU_DEM_mosaic_1000K/1000_temp.vrt /home/juju/Bureau/aaa/
-gdal2tiles.py -p EUR --processes=2 /home/juju/Bureau/gisco/elevation/EU_DEM_mosaic_1000K/1000_temp.vrt /home/juju/Bureau/aaa/
+gdal2tiles.py -p EUR --xyz --zoom=0-3 -x -s EPSG:3035 --processes=2 /home/juju/Bureau/gisco/elevation/EU_DEM_mosaic_1000K/1000_temp.vrt /home/juju/Bureau/aaa/
+
 
 https://ec.europa.eu/statistical-atlas/arcgis/rest/services/Basemaps/StatAtlas_Continents/MapServer
 https://raw.githubusercontent.com/jgaffuri/mbxyz/main/pub/test/3/4/2.png
 
 https://gdal.org/programs/gdal2tiles.html#cmdoption-gdal2tiles-p
+
+
+http://wiki.osgeo.org/wiki/Tile_Map_Service_Specification
+https://gdal.org/drivers/raster/wms.html#tms
 
 
 
