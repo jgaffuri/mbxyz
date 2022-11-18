@@ -4,6 +4,10 @@ gdal2tiles.py --xyz -x -s EPSG:3035 --zoom=0-7 --processes=2 /home/juju/Bureau/g
 
 gdal2tiles.py -p EUR --xyz --zoom=0-4 -x -s EPSG:3035 --processes=3 /home/juju/Bureau/gisco/elevation/EU_DEM_mosaic_1000K/1000_temp.vrt /home/juju/Bureau/aaa/
 
+gdal2tiles.py -p EUR --xyz --zoom=0-5 -x -s EPSG:3035 --processes=3 /home/juju/Bureau/gisco/map_background/map.png /home/juju/Bureau/aaa/
+
+
+
 
 https://ec.europa.eu/statistical-atlas/arcgis/rest/services/Basemaps/StatAtlas_Continents/MapServer
 https://raw.githubusercontent.com/jgaffuri/mbxyz/main/pub/test/3/4/2.png
